@@ -1,3 +1,4 @@
+
 //remove button
 var removeCartItemBtns = document.getElementsByClassName("remove-btn")
 console.log(".remove-buttons")
@@ -50,8 +51,9 @@ function addToCart(e) {
 
 function addItemToCart(title, price, imageSrc){
   var cartItem = document.createElement('div')
-  cartItem.innerText = title
   var cartList = document.getElementsByClassName('cart-list')[0]
+
+  cartItem.innerHTML = cartItemContent
   cartList.append(cartItem)
 }
 
