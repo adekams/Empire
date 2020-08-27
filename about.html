@@ -13,6 +13,8 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate.css">
     <title>About</title>
 </head>
 <body>
@@ -67,7 +69,7 @@
       <section id="about" class="my-5">
         <h4 class="text-center font-weight-bold pb-3">Who Are We?</h4>
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center mx-2">
               <p>
               We are Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, provident? Similique quia necessitatibus explicabo harum. Optio atque minus voluptatem sequi omnis non deleniti corporis nam, esse laudantium unde error eaque.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt maxime atque ipsam voluptatibus! Ullam dolores deserunt vel odit aut nisi dolorem dignissimos dolore eius esse, eaque totam eos molestiae.
@@ -82,12 +84,12 @@
         <div class="container">
           <div class="row">
             <!--member 1-->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="col-xl-3 col-md-6 mb-4 wow animate__animated animate__fadeInLeft">
               <div class="card shadow">
                 <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="member">
                 <div class="card-body text-center">
                   <p class="card-title mb-0">
-                    Adelaide Cole
+                    Olamide Olanrewaju
                   </p>
                   <div class="card-text">
                     CEO
@@ -96,12 +98,12 @@
               </div>
             </div>
             <!--member 2-->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="col-xl-3 col-md-6 mb-4 wow animate__animated animate__fadeInTopLeft">
               <div class="card shadow">
-                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="member">
+                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1550546094-9835463f9f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="member">
                 <div class="card-body text-center">
                   <p class="card-title mb-0">
-                    Hermoine Garette
+                    Zainab Usman
                   </p>
                   <div class="card-text">
                     Sales Manager
@@ -110,7 +112,7 @@
               </div>
             </div>
             <!--member 3-->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="col-xl-3 col-md-6 mb-4 wow animate__animated animate__fadeBottomRight">
               <div class="card shadow">
                 <img class="img-fluid w-100"  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="member">
                 <div class="card-body text-center">
@@ -124,12 +126,12 @@
               </div>
             </div>
             <!--member 4-->
-            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="col-xl-3 col-md-6 mb-4 wow animate__animated animate__fadeInRight">
               <div class="card shadow">
                 <img class="img-fluid w-100"  src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="member">
                 <div class="card-body text-center">
                   <p class="card-title mb-0">
-                    Harriett Stone
+                    Chidubem Chukwuwenke
                   </p>
                   <div class="card-text">
                     Sales Associate
@@ -241,5 +243,11 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
     <script src="js/main.js"></script>
+    
+    <!-- delay animation till scroll -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>

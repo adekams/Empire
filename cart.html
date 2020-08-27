@@ -13,6 +13,8 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate.css">
     <title>Cart</title>
 </head>
 <body>
@@ -331,7 +333,7 @@
     </div>
   </section>
 
-  <section id="checkout">
+  <section id="checkout" class="wow animate__animated animate__fadeInDownBig">
     <!--checkout section-->
     <div class="container-fluid">
 
@@ -627,5 +629,12 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
     <script src="js/main.js"></script>
+
+    
+    <!-- delay animation till scroll -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>
